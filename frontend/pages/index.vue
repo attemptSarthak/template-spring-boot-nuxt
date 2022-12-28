@@ -8,8 +8,8 @@
         Demo Spring Boot + Nuxt
       </h2>
       <div class="links">
-        <el-button type="primary" plain @click.native.prevent="$router.push({ path: '/users' })">User management</el-button>
-        <el-button type="primary" plain @click.native.prevent="ping">Ping</el-button>
+        <el-button type="primary" plain @click.native.prevent="$router.push({ path: '/users' })">Add To Do Items</el-button>
+        <el-button type="primary" plain @click.native.prevent="ping">View List of Activities</el-button>
       </div>
     </div>
   </section>
