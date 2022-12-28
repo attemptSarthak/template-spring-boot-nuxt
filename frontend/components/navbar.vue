@@ -4,13 +4,7 @@
       <!--img alt="my-logo" src="/my-logo.svg" /-->
       My app
     </nuxt-link>
-    <div class="links">
-      <nav class="nav-links">
-        <div class="nav-item">
-          <nuxt-link to="/users">Users</nuxt-link>
-        </div>
-      </nav>
-    </div>
+    
   </header>
 </template>
 
