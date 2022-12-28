@@ -1,7 +1,7 @@
 <template>
   <div class="dataview">
     <el-table
-      :data="users"
+      :data="Task"
       style="width: 100%">
       <el-table-column
         prop="id"
@@ -19,10 +19,10 @@
     </el-table>
 
     <div class="button-bar">
-      <el-button @click="addUserVisible = true">Add user</el-button>
+      <el-button @click="addUserVisible = true">Add Task</el-button>
     </div>
 
-    <el-dialog title="Add a user" :visible.sync="addUserVisible">
+    <el-dialog title="Add a Task" :visible.sync="addUserVisible">
       <el-form ref="userForm" :model="user" :rules="userRules" label-width="200px">
         <el-form-item label="First name" prop="firstName">
           <el-input v-model="user.firstName"></el-input>
